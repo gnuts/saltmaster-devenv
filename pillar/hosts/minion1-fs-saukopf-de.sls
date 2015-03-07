@@ -1,3 +1,6 @@
+formulas:
+  - heartbeat
+
 heartbeat:
   auth:
     defaultkey: '1'
