@@ -1,3 +1,7 @@
+
+include:
+  - users
+
 formulas:
   #- network-debian
   #- conntrack
