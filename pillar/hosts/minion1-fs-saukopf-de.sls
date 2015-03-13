@@ -1,5 +1,9 @@
+
+include:
+  - auth.users
+
 formulas:
-  - heartbeat
+  - users
 
 heartbeat:
   auth:
