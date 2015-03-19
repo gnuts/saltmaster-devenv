@@ -30,19 +30,22 @@ users:
     ssh_auth_file:
       - demo2sshauthfile/lkjljklkjlkjlkjlkjlkj
 
-   demo3:
+  demo3:
     fullname: Demo User 3
     createhome: True
     shell: /bin/bash
     prime_group:
       name: users
 
-   demo4:
+  demo4:
     fullname: Demo User 4
+    sudouser: True
     createhome: True
     shell: /bin/bash
     prime_group:
       name: users
+
+  demo5:
 
 
 # add keys of userlists to accounts:

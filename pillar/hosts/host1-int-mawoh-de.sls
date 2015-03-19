@@ -1,11 +1,12 @@
 
 include:
-  - users
+  - auth.users
 
 formulas:
   #- network-debian
   #- conntrack
-  - quagga
+  #- quagga
+  - users
 
 network:
   dnsdomain: int.mawoh.de
