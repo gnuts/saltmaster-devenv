@@ -49,7 +49,7 @@ users:
 
 
 # add keys of userlists to accounts:
-users_authgroups:
+authorized_users:
   demo3:
     - demo1
     - demo2
@@ -57,8 +57,7 @@ users_authgroups:
     - demo2
 
 # only create these user accounts:
-users_accounts:
-  - demo4
-  - demo3
+#applied_accounts:
+#  - demo1
 
 
