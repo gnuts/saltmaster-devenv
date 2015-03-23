@@ -10,6 +10,8 @@ users:
     groups:
       - staff
     ssh_key_type: rsa
+    ssh_auth:
+      - ssh-rsa asdfasdfasdfasdf demo1
     ssh_keys:
       pubkey: pubkeydemo1/asdfasdfasdf
     ssh_auth_file:
@@ -24,6 +26,8 @@ users:
       name: users
     groups:
       - staff
+    ssh_auth:
+      - ssh-rsa xcvbxcvbxcvbxcvb demo2
     ssh_key_type: rsa
     ssh_keys:
       pubkey: pubkeydemo2/kjhkjhkjhkjhjhkkjhjhk
