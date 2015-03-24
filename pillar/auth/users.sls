@@ -50,6 +50,9 @@ users:
       name: users
 
   demo5:
+    ssh_auth:
+      - ssh-rsa 5kjh5kjhg5jhkg5jhkg5jhg5jgh demo5
+    
 
 
 # add keys of userlists to accounts:
@@ -59,6 +62,18 @@ authorized_users:
     - demo2
   demo4:
     - demo2
+
+#optional, acl way of including users:
+authorized_acl:
+  list1:
+    demo3:
+      - demo1
+      - demo2
+  list2:
+    demo3:
+      - demo5
+
+
 
 # only create these user accounts:
 #applied_accounts:
